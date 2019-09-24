@@ -1,3 +1,12 @@
+/*
+
+    IMPORTANT ADVERTS BEFORE CHANGE OR ADD SOME CODE
+    It's strongly recommended having a look at readme.md and main.js advets before start
+
+    @author: Rafael Perozin
+
+*/
+
 export function formatMoney(n, c, d, t) {
     var c = isNaN(c = Math.abs(c)) ? 2 : c,
         d = d == undefined ? "." : d,

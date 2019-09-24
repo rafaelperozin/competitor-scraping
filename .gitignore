@@ -1,4 +1,2 @@
 app/node_modules
 app/yarn.lock
-server/node_modules
-server/yarn.lock
