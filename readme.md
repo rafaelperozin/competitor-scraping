@@ -1,6 +1,6 @@
 # Price Monitoring App
 How it works:
-1. Add a [products.json](https://github.com/rafaelperozin/competitor-scraping/tree/master/app/json/product.json)
+1. Create an JSON file colled produsct.js and add on [json folder](https://github.com/rafaelperozin/competitor-scraping/tree/master/app/json). You can se the required JSON structure on [products--EXAMPLE.json](https://github.com/rafaelperozin/competitor-scraping/tree/master/app/json/product--EXAMPLE.json) file
 2. The robot will read and scrap the competitor:
     - Read local JSON
     - Create a queue of product (to prevent has the IP block) respecting the default delay between each product scan

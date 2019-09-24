@@ -9,8 +9,6 @@
 
 const patterns = () => {
     const elementPattern = {
-        // Never set element class or id directly on main.js or function
-        // Just set here as an object then call as return suggest
         myStore: 'RMS',
         mainElement: '.page-content',
         loadingGif: 'img/loading.gif',
@@ -21,8 +19,6 @@ const patterns = () => {
 
     return {
         getVal() {
-            // When call UI().getEl().objectProperty outside the function return the object property value
-            // example: UI().getEl().backArrow = '.post__back-arrow'
             return elementPattern;
         }
     };
