@@ -29,17 +29,17 @@
         },
         {
             "competitor": "Competitor 1",
-            "link": "https://www.competitor1.co.uk/category/product-1-page.html",
+            "link": "https://www.competitor1.co.uk/category/product-2-page.html",
             "selector": "[itemprop=\"price\"]"
         },
         {
             "competitor": "Competitor 2",
-            "link": "https://www.competitor2.co.uk/category/product-1-page.html",
+            "link": "https://www.competitor2.co.uk/category/product-2-page.html",
             "selector": "[itemprop=\"price\"]"
         },
         {
             "competitor": "Competitor 3",
-            "link": "https://www.competitor3.co.uk/category/product-1-page.html",
+            "link": "https://www.competitor3.co.uk/category/product-2-page.html",
             "selector": ".summary.entry-summary .price ins .woocommerce-Price-amount.amount"
         }
     ]
